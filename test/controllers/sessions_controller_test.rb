@@ -5,5 +5,8 @@ class SessionsControllerTest < ActionDispatch::IntegrationTest
     get login_path
     assert_response :success
   end
+<<<<<<< HEAD
 
+=======
+>>>>>>> basic-login
 end
