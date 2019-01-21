@@ -96,12 +96,11 @@ Rails.application.configure do
   host = 'vast-woodland-17622.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
-    :address        => 'smtp.sendgrid.net',
+    :address        => 'smtp.postmarkapp.com',
     :port           => '587',
     :authentication => :plain,
     :user_name      => '3ff88706-6553-433f-8c8f-fe2ea11fcfe9',
     :password       => '3ff88706-6553-433f-8c8f-fe2ea11fcfe9',
-    :domain         => 'heroku.com',
-    :enable_starttls_auto => true
+    :domain         => 'heroku.com'
   }
 end
